@@ -43,7 +43,7 @@ class InputClass extends Component {
             this.setState(() => ({
               // 객체 형태 {키 : 값}
               // 키를 [] 감싸면 가리키는 실제값이 사용
-              [e.target.name]: e.target.value,
+              [e.target.name]: e.target.value, // message : "sdd"(입력된 무언가)
             }));
           }}
         ></input>
